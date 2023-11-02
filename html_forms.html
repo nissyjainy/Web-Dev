@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h2> Forms in HTML </h2>
+    <form action = "backend.php">
+        <label for = "name">   Name : </label>
+        
+        <div>
+           <input type = "text" name = "myname" id ="name">
+        </div>
+        <br>
+        <label for = "age">   Age: </label>
+        <div>
+             <input type = "text" name = "myage" id = "age">
+        </div>
+        <br>
+        <div>
+            Email : <input type = "email" name = "myemail">
+        </div>
+        <br>
+        <div>
+            Date of Birthday : <input type = "date" name = "mydate">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type = "radio" name = "mygender"> Female <input type = "radio" name = "mygender">
+        </div>
+        <br>
+        <div>
+           Planning a vacation  : <input type = "checkbox" name = "myvacation">
+        </div>
+        <br>
+        <div>
+           Write about yourself  : <br><textarea name = "myarea" rows="10" cols= "90"></textarea>
+         </div>
+         <br>
+         <div>
+            <label for ="car">Car</label>
+            <select name="mycar" id ="car">
+                <option value="Mercedes Benz">Mercedes Benz</option>
+                <option value="Audi">Audi</option>
+                <option value="Rollce Roys">Rollce Roys</option>
+               
+            </select>
+         </div>
+        <div>
+            Submit : <input type = "submit" name = "mysubmit">
+            Reset : <input type = "reset" name = "myreset">
+        </div>
+      
+        
+    </form>
+    
+</body>
+</html>
